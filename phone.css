@@ -1,0 +1,141 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+
+}
+
+#navbar::before{
+    content: "";
+   
+}
+
+/* Logo And Image  */
+
+/* Navigation Bar List Style  */
+
+
+
+#navbar ul li{
+  font-size: .8rem;
+  padding-bottom: 10px;
+
+}
+#navbar ul li a{
+    padding: 3px 10px;
+}
+
+
+/* Home Section  */
+#home{
+    overflow: hidden;
+    height: 100%;
+    padding: 10% 2%;
+
+} 
+#home::before{
+    content: "";
+    
+}
+
+#home p{
+   font-size: 1rem;
+} 
+/* Services Sections */
+#services-container{
+    
+} 
+#services{
+    flex-direction: column;
+   
+}
+
+#services .box{
+    padding: 20px;
+    margin: 10px 5px 25px;
+}
+
+
+#services .box img{
+    height: 85px;
+}
+#services .box p{
+    height: 100%;
+    font-size: 1rem;
+} 
+
+/* Client Section  */
+#client-section{
+    overflow: hidden;
+}
+#client-section::before{
+    content: "";
+   
+
+}
+
+#clients{
+    padding-top: 50px;
+    flex-wrap: wrap;
+    
+}
+.client-item{
+    padding: 0px 15px;
+}
+#clients img{
+    height: 65px;
+} 
+
+/* Contact Section  */
+
+#contact{
+   
+}
+#contact::before{
+    content: "";
+    
+ 
+
+
+}
+#contact-box{
+    
+    
+}
+#contact-box input,
+#contact-box textarea{
+    padding: .3rem;
+    
+}
+#contact-box form{
+  width: 80%;
+}
+#contact-box label{
+    font-size: 1rem;
+   
+}
+
+footer{
+   
+
+} 
+
+
+
+/* Utility Classes  */
+.h-primary{
+   padding: 5px;
+   font-size: 1.8rem;
+    
+}
+.h-secondary{
+    padding: 0px;
+    font-size: 1.3rem;
+    
+}
+.btn{
+    padding: 4px 15px;
+    margin: 17px;
+    font-size: 1rem;
+    
+    
+}
